@@ -7,6 +7,9 @@ This project provides a simple Ruby implementation for calculating the trades (b
 
 It determines which stocks to buy or sell to align the portfolio's current holdings (e.g., 10 shares of AAPL, 2 of META) with a target allocation (e.g., 60% AAPL, 40% META).
 
+## Important:
+The code could be improved or refactored. For example, distributing the logic across different files to avoid violating the SOLID pattern. However, I decided to leave it in a single file to facilitate code execution on any computer.
+
 ## Core Logic
 
 The solution is built around two main classes:
